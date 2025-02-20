@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 2px red solid;
+}
+
+.navbar {
+    background: blue;
+    height: 100px;
+    display: flex;
+
+    .logo {
+        overflow: hidden;
+        margin-left: 300px;
+
+        .div-imagem {
+            width: 200px;
+            height: 100px;
+            object-fit: cover;
+        }
+    }
+
+    .list {
+        margin-left: 800px;
+        list-style: none;
+        display: inline-flex;
+        justify-content: space-between;
+
+        .button {
+            margin-top: 40px;
+            display: inline;
+            ;
+            
+        }
+    }
+}
+
+
+
